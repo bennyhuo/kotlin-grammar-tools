@@ -1,6 +1,4 @@
-rootProject.name = "kotlin-grammar-antlr-sample"
-
-include(":grammar-tools")
+include(":grammar-antlr")
 
 pluginManagement {
     repositories {
