@@ -772,6 +772,18 @@ public class KotlinParserBaseListener implements KotlinParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterDefinitelyNonNullableType(KotlinParser.DefinitelyNonNullableTypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDefinitelyNonNullableType(KotlinParser.DefinitelyNonNullableTypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterStatements(KotlinParser.StatementsContext ctx) { }
 	/**
 	 * {@inheritDoc}

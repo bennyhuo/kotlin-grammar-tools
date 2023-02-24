@@ -638,6 +638,16 @@ public interface KotlinParserListener extends ParseTreeListener {
 	 */
 	void exitParenthesizedUserType(KotlinParser.ParenthesizedUserTypeContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link KotlinParser#definitelyNonNullableType}.
+	 * @param ctx the parse tree
+	 */
+	void enterDefinitelyNonNullableType(KotlinParser.DefinitelyNonNullableTypeContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link KotlinParser#definitelyNonNullableType}.
+	 * @param ctx the parse tree
+	 */
+	void exitDefinitelyNonNullableType(KotlinParser.DefinitelyNonNullableTypeContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link KotlinParser#statements}.
 	 * @param ctx the parse tree
 	 */
